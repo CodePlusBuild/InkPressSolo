@@ -4,7 +4,7 @@ from PIL import Image
 from waveshare_epd import epd4in0e 
 
 # --- SETTINGS ---
-ICON_FOLDER = os.path.join(os.path.dirname(__file__), 'icons')
+ICON_FOLDER = os.path.join(os.path.dirname(__file__), 'pictures')
 TEST_IMAGE_NAME = "test_image.png"
 
 # The screen is 600 wide and 400 tall

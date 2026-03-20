@@ -66,13 +66,13 @@ Your station needs to learn how to draw shapes and how to talk to the screen.
    ```
 
 2. **Download the Screen Driver:**
+   Skip this step if you used this repository directly.
    This gives the Pi the "Instruction Manual" for your specific Waveshare screen.
    ```bash
    mkdir -p ~/MyProject
    cd ~/MyProject
    git clone [https://github.com/waveshare/e-Paper.git](https://github.com/waveshare/e-Paper.git)
    ```
-   Skip this step if you downloaded the repository directly.
 
 ## 💻 Step 3: Coding with VS Code (SSH FS)
 We use the **SSH FS** extension by **Kelvin Schoof** to edit files directly on the Pi without ever plugging a keyboard into it! 
